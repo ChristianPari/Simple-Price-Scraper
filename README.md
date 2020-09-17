@@ -1,0 +1,2 @@
+# Amazon Price Checker
+This is a simple Amazon price checker that uses the requests module and BeautifulSoup to retrieve and parse the html page from Amazon. Then by checking if the price is less than a certain amount I wanted to send myself an email so I would know and could check the price. I used the smtplib module to be able to setup a server to communicate with Gmail and then created and sent myself a email. Also by using the time module I was able to make this file run once everyday.
